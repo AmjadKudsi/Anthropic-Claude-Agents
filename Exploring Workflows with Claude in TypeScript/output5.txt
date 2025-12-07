@@ -1,0 +1,37 @@
+First response text:
+The main difference is that cats are generally more independent and low-maintenance, while dogs are more social and require regular walks, training, and attention.
+
+Second response JSON:
+{
+  "model": "claude-sonnet-4-20250514",
+  "id": "msg_011CGKt6wGsAWAoJiozHkxDV",
+  "type": "message",
+  "role": "assistant",
+  "content": [
+    {
+      "type": "thinking",
+      "thinking": "The human is asking about which pet is easier to train between cats and dogs. This is a straightforward question about pet training.\n\nGenerally speaking, dogs are much easier to train than cats. Dogs are naturally pack animals that respond well to commands and positive reinforcement. They're bred to work with humans and have been selectively bred for trainability. They can learn a wide variety of commands, tricks, and behaviors.\n\nCats, on the other hand, are more independent and less motivated by pleasing their owners. While cats can be trained (litter box training, some commands, tricks), they're generally less responsive to training efforts and more selective about when they'll cooperate.\n\nI should keep this brief as instructed.",
+      "signature": "Eo0HCkYIChgCKkAtfvNK3qPe3GWdkG64LvsCf/ayi/Q6gj0v4SuTabYxMeJJn/yWy2aNDe+BCMDw7kmLh7Yv2lVtAQqaMLm9d1/uEgzrDA9BWd7df7tfgrAaDL9rXzu1Er8UFfwJCCIw5vSqzaHCBEYxCX9tHWEQ85wiha42fJs5sKBB8AhSg9LfgwzA1VMlOrcCtTt983+/KvQFLyPqu9uAqdsy+ONsVSa8oUR/FNfl30VzVVqxX6ce0l+BFPl9cnFQufFApPNUAo3+Hk3F/aas7VUoPuZP22G/xTc+9oJ7K+NubH7ZLvcxRkwzO0cpal5J1Dx2nEIQg+2MCb2BfqH+OCoJB3c3RdElJ+ZcNsyO5iEY3uJ7MYhs0V8AO0wcMLxhFFoVdOwgBCuZ2vFdALQxktFRwf/xlJj3OE1UG1YaU7YBzQcwA25EmiiWixC1GGeYsLcpCjEpeQa3tagWRf/IT2e6zmqz6+3QV4QG0g0H3dkHJp1JG52//xz8Pi19KJNtLLxM7wCx+nYYxfSC4rjqB7yAdu+yLU/FbmBy+O8EHIAFykEi77gmJKgPP+S1Mtryl7MkDKg8fgGTY1V7xE2SBbqEZDhhpDIYS0xdsFKpIlWtofxUDwvzMddZNSvRfkwJecpcg3SzJ1kntqeA9ahdwXjHgJqkMka2Me1lDiYChT9ZkGHI3MJRyNaME7aQQQiE1VCILg/184gurBqbHZCuCsCFI0j8xNtuKmHoq9RtZagvv07qiA1417/b44GAldVxK3fMUW9BhFoboXMB/05l5fPG35zMZS3S2DVW0VKNnG28mEfjA2HJs99UQYDMJikwjPoyd1t++SznQmyijOlUTer6Q9vZPqISEZ4uV9F4IBkxeepzil4UfxD2Q1le8UtKiDpRxsu39IsXPIG7DVaFZj/buQFNRSUym00xHpqYAZAQ65r/fVhagDd2WHsXOnPM3JTMfMWYLi0wyk2EfzEQGDrUMkwGB1/KigbsooJRrw4Hlio3deGtr8mXI+vfpr6+kX+HK02JaGIhXdr3InJpM0jWLDxJOO07lJ++GJ57TlNdpO/IlkjnfwodJauJA3uSn9wJj5DvBbB7rq98vH5sukrP2J8wnkUSWnvKpq8dMGxwjhvnUZ1MqnYZB5d30gWGobEHnPg75MgRaWk0q3OVjkapW2w4DA7XVLZ8L+YVI8G6Doua4CJCOmzRtSHoGAE="
+    },
+    {
+      "type": "text",
+      "text": "Dogs are much easier to train. They're naturally eager to please and respond well to commands and positive reinforcement, while cats are more independent and selective about following instructions."
+    }
+  ],
+  "stop_reason": "end_turn",
+  "stop_sequence": null,
+  "usage": {
+    "input_tokens": 102,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 195,
+    "service_tier": "standard"
+  }
+}
+
+Second response text:
+Dogs are much easier to train. They're naturally eager to please and respond well to commands and positive reinforcement, while cats are more independent and selective about following instructions.

@@ -1,0 +1,31 @@
+# macOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build and distribution folders
+build/
+dist/
+*.egg-info/
+
+# VS Code settings
+.vscode/
