@@ -1,4 +1,4 @@
-# create a complete Claude interaction by filling in the missing pieces of code that will send a message to Claude and display the full response structure
+// create a complete Claude interaction by filling in the missing pieces of code that will send a message to Claude and display the full response structure
 import Anthropic from "@anthropic-ai/sdk";
 
 // TODO: Initialize the Anthropic client

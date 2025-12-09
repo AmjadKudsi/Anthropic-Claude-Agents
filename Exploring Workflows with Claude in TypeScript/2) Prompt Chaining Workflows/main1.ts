@@ -1,4 +1,4 @@
-# implement the foundation of a prompt chain by creating the summary generation step, which will later feed into validation and translation
+// implement the foundation of a prompt chain by creating the summary generation step, which will later feed into validation and translation
 
 import Anthropic from "@anthropic-ai/sdk";
 

@@ -1,4 +1,4 @@
-# replace the simple text extraction in the second print statement with a more sophisticated approach
+// replace the simple text extraction in the second print statement with a more sophisticated approach
 
 import Anthropic from "@anthropic-ai/sdk";
 

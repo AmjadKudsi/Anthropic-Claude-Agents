@@ -1,4 +1,4 @@
-# extend your existing chain by adding a fourth step that uses Claude to evaluate the translation quality
+// extend your existing chain by adding a fourth step that uses Claude to evaluate the translation quality
 
 import Anthropic from "@anthropic-ai/sdk";
 

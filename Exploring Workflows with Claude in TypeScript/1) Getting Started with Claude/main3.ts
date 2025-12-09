@@ -1,4 +1,4 @@
-# transform a single-question interaction into a flowing conversation in which Claude can build upon previous context
+// transform a single-question interaction into a flowing conversation in which Claude can build upon previous context
 
 import Anthropic from "@anthropic-ai/sdk";
 

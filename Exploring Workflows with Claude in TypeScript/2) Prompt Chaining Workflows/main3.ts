@@ -1,4 +1,4 @@
-# make your guardrails more restrictive to meet stricter requirements
+// make your guardrails more restrictive to meet stricter requirements
 
 import Anthropic from "@anthropic-ai/sdk";
 

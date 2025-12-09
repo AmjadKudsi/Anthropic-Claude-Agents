@@ -1,4 +1,4 @@
-# modify your second API call to enable Claude's thinking capabilities
+// modify your second API call to enable Claude's thinking capabilities
 
 import Anthropic from "@anthropic-ai/sdk";
 

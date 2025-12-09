@@ -1,4 +1,4 @@
-# extract and display Claude's actual text response and the stop_reason that tells you why Claude finished generating its answer
+// extract and display Claude's actual text response and the stop_reason that tells you why Claude finished generating its answer
 
 import Anthropic from "@anthropic-ai/sdk";
 

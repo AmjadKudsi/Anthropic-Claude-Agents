@@ -1,4 +1,4 @@
-# implement the validation layer that sits between your summary generation and translation steps
+// implement the validation layer that sits between your summary generation and translation steps
 
 import Anthropic from "@anthropic-ai/sdk";
 

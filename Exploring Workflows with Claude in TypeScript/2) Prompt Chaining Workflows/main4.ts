@@ -1,4 +1,4 @@
-# complete the missing translation logic
+// complete the missing translation logic
 
 import Anthropic from "@anthropic-ai/sdk";
 
