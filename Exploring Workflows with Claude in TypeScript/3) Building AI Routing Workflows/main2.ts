@@ -1,0 +1,74 @@
+// implement the mapping logic that takes the router's classification and selects the right specialist prompt
+
+import Anthropic from "@anthropic-ai/sdk";
+
+// Initialize the Anthropic client
+const client = new Anthropic({
+  apiKey: process.env.ANTHROPIC_API_KEY, // Ensure you have set your API key in the environment variables
+});
+
+// Choose a model to use
+const model = "claude-sonnet-4-20250514";
+
+// Router system prompt - decides which specialist to use
+const routerPrompt = `You are a task router. Your job is to analyze user requests and determine which specialist should handle them.
+
+Available specialists:
+- math_specialist: For mathematical calculations, equations, and numerical problems
+- writing_specialist: For creative writing, essays, stories, and text composition
+- code_specialist: For programming questions, code review, and technical implementation
+
+Respond with ONLY the specialist name (math_specialist, writing_specialist, or code_specialist) that best matches the user's request.`;
+
+// Specialist system prompts
+const mathSpecialistPrompt = "You are a mathematics expert. You excel at solving equations, performing calculations, and explaining mathematical concepts clearly.";
+
+const writingSpecialistPrompt = "You are a creative writing expert. You specialize in crafting engaging stories, essays, and helping with all forms of written communication.";
+
+const codeSpecialistPrompt = "You are a programming expert. You specialize in writing code, debugging, code review, and explaining technical concepts.";
+
+// User request to route
+const userRequest = "Write me a short story about robots";
+
+// Step 1: Send request to router to determine which specialist to use
+const routerMessages: Anthropic.MessageParam[] = [
+  {
+    role: "user",
+    content: userRequest,
+  },
+];
+
+// Get routing decision from Claude
+const routerResponse = await client.messages.create({
+  model: model,
+  max_tokens: 100, // Short response expected
+  messages: routerMessages,
+  system: routerPrompt,
+});
+
+// Extract the routing decision
+const routerTextBlock = routerResponse.content.find(
+  (block) => block.type === "text"
+);
+if (!routerTextBlock || routerTextBlock.type !== "text") {
+  throw new Error("No routing decision received");
+}
+const specialistChoice = routerTextBlock.text.trim();
+console.log(`Router decision: ${specialistChoice}`);
+
+// TODO: Create if-else if-else logic to map the router decision to the correct specialist prompt
+// Include cases for math_specialist, writing_specialist, code_specialist, and a fallback for unexpected responses
+// Print which specialist was selected for verification
+
+let specialistPrompt: string;
+if (specialistChoice === "math_specialist") {
+  specialistPrompt = mathSpecialistPrompt;
+} else if (specialistChoice === "writing_specialist") {
+  specialistPrompt = writingSpecialistPrompt;
+} else if (specialistChoice === "code_specialist") {
+  specialistPrompt = codeSpecialistPrompt;
+} else {
+  specialistPrompt = "You are a helpful assistant.";
+}
+
+console.log(`Specialist prompt: ${specialistPrompt}`);
