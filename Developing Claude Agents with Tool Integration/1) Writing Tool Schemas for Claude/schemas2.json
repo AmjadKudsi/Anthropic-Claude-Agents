@@ -1,0 +1,20 @@
+[
+  {
+    "name": "sum_numbers",
+    "description": "sum two numbers and return the result",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "description": "First number to add"
+        },
+        "b": {
+          "type": "number",
+          "description": "Second number to add"
+        }
+      },
+      "required": ["a", "b"]
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "sum_numbers",
+    "description": "Sum two numbers and return the result",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "description": "First number to add"
+        },
+        "b": {
+          "type": "number",
+          "description": "Second number to add"
+        }
+      },
+      "required": ["a", "b"]
+    }
+  },
+  {
+    "name": "multiply_numbers",
+    "description": "Multiply two numbers and return the result",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "description": "First number to multiply"
+        },
+        "b": {
+          "type": "number",
+          "description": "Second number to multiply"
+        }
+      },
+      "required": ["a", "b"]
+    }
+  }
+]
