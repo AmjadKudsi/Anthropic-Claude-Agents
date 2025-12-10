@@ -1,0 +1,67 @@
+🔄 Asking: What are the top 3 must-see attractions in Paris?
+🔄 Asking: What is the most efficient way to get around Paris as a tourist?
+🔄 Asking: What are important cultural etiquette tips for visitors to France?
+✅ Answer received!
+✅ Answer received!
+✅ Answer received!
+[
+  'Here are the top 3 must-see attractions in Paris:\n' +
+    '\n' +
+    '1. **Eiffel Tower** - The iconic symbol of Paris offering stunning city views from its observation decks, especially beautiful when illuminated at night.\n' +
+    '\n' +
+    "2. **Louvre Museum** - World's largest art museum housing masterpieces like the Mona Lisa and Venus de Milo. Book timed entry tickets in advance to avoid long lines.\n" +
+    '\n' +
+    '3. **Notre-Dame Cathedral** - Gothic architectural masterpiece on Île de la Cité (currently under restoration after the 2019 fire, but the exterior and surrounding area remain worth visiting).\n' +
+    '\n' +
+    '**Bonus tip:** These attractions are easily walkable from each other, making it possible to visit all three in a day with proper planning.',
+  "The **metro** is your best bet for getting around Paris efficiently. Here's why:\n" +
+    '\n' +
+    '**Metro advantages:**\n' +
+    '- Extensive network covering all major attractions\n' +
+    '- Runs every 2-4 minutes during peak times\n' +
+    '- Affordable day passes (Navigo Easy or tourist passes)\n' +
+    '- Stations are rarely more than a 5-minute walk apart\n' +
+    '\n' +
+    '**Quick tips:**\n' +
+    '- Get a **Navigo weekly pass** if staying 4+ days\n' +
+    '- Download the **Citymapper** app for real-time directions\n' +
+    '- Avoid rush hours (8-9:30 AM, 5:30-7 PM) when possible\n' +
+    '\n' +
+    '**Alternatives for specific situations:**\n' +
+    '- **Walking** for short distances (Paris is very walkable)\n' +
+    "- **Vélib' bikes** for nice weather and nearby destinations\n" +
+    '- **Taxis/Uber** late at night when metro frequency drops\n' +
+    '\n' +
+    'The metro will get you to the Eiffel Tower, Louvre, Notre-Dame, and other major sites quickly and cheaply. Just buy your tickets in advance to avoid lines!',
+  'Here are key cultural etiquette tips for France:\n' +
+    '\n' +
+    '**Greetings & Politeness**\n' +
+    '- Always say "Bonjour" when entering shops/restaurants and "Au revoir" when leaving\n' +
+    `- Use "Monsieur/Madame" when addressing people you don't know\n` +
+    '- Handshakes are standard; cheek kisses are for friends/family\n' +
+    '\n' +
+    '**Dining Etiquette**\n' +
+    '- Keep hands visible on the table, never in your lap\n' +
+    '- Wait for "Bon appétit" before eating\n' +
+    "- Don't cut lettuce in salads—fold it with your fork\n" +
+    '- Bread goes directly on the table, not on your plate\n' +
+    "- Splitting bills isn't common—one person typically pays\n" +
+    '\n' +
+    '**General Behavior**\n' +
+    '- Speak quietly in public; loud conversations are considered rude\n' +
+    '- Dress well—French people value good presentation\n' +
+    "- Don't smile at strangers on the street (it's not expected)\n" +
+    '- Learn basic French phrases—effort is appreciated even if imperfect\n' +
+    '\n' +
+    '**Practical Tips**\n' +
+    '- Many shops close 12-2pm for lunch\n' +
+    '- Dinner is typically late (8-9pm)\n' +
+    '- Tipping 5-10% is sufficient; service charge is usually included\n' +
+    '\n' +
+    '**What to Avoid**\n' +
+    "- Don't discuss money or personal finances\n" +
+    '- Avoid comparing France unfavorably to other countries\n' +
+    "- Don't expect customer service with American-style enthusiasm\n" +
+    '\n' +
+    'Making an effort with the language and showing respect for French customs will be warmly received.'
+]

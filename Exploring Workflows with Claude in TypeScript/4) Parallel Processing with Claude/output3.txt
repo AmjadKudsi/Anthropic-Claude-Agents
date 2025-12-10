@@ -1,0 +1,58 @@
+Starting 3 research questions in parallel...
+🔄 Asking: What are the top 3 must-see attractions in Paris?
+🔄 Asking: What is the most efficient way to get around Paris as a tourist?
+🔄 Asking: What are important cultural etiquette tips for visitors to France?
+✅ Answered: What are the top 3 must-see attractions in Paris?
+✅ Answered: What is the most efficient way to get around Paris as a tourist?
+✅ Answered: What are important cultural etiquette tips for visitors to France?
+
+Research completed!
+
+📚 Aggregating research into a travel guide...
+
+🧭 Travel guide created!
+
+======================
+Paris Travel Guide:
+======================
+
+# First-Time Paris Travel Guide
+
+## Getting Around
+**Use the Metro system** - it's your best friend in Paris. Buy a **Navigo Easy card** at any station and load it with day passes or individual rides (€1.90 each). Download **Citymapper** for easy navigation. Most attractions are within walking distance of Metro stops, and many sites connect nicely on foot along the Seine River.
+
+## Must-See Attractions
+Start with the **Big Three**:
+1. **Eiffel Tower** - Visit during the day and return at night for the hourly light show
+2. **Louvre Museum** - Book timed entry tickets online; plan 3-4 hours minimum  
+3. **Notre-Dame area** - While the cathedral is under restoration, the surrounding Île de la Cité is still stunning
+
+**Pro tip:** These three sites form a perfect walking route along the Seine - easily done in one day.
+
+## Cultural Do's and Don'ts
+
+**Essential Politeness:**
+- Say "Bonjour" entering any shop/restaurant and "Au revoir" when leaving
+- Learn basic phrases - even poor French is appreciated
+- Dress nicely; presentation matters in France
+
+**Dining Basics:**
+- Make restaurant reservations when possible
+- Don't rush meals - take your time
+- Keep hands visible on the table
+- Tipping is optional (service included in bill)
+
+**Social Norms:**
+- Use formal "vous" unless invited to use "tu"
+- Speak quietly in public
+- Don't expect strangers to smile back on the street
+
+## Practical Tips
+- Many attractions are walkable from each other - comfortable shoes essential
+- Use Vélib' bikes for short trips in good weather  
+- Avoid taxis during rush hour; stick to Metro
+- Book popular restaurants and museum entry times in advance
+
+**Emergency French:** "Pardon, parlez-vous anglais?" (Excuse me, do you speak English?)
+
+Follow these basics and you'll navigate Paris like a respectful, savvy traveler!

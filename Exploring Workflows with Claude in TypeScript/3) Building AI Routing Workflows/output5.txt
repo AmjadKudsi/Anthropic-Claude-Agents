@@ -1,0 +1,38 @@
+Router decision: science_specialist
+Specialist Response:
+Photosynthesis is the process by which plants convert light energy into chemical energy (glucose) using carbon dioxide and water. Here's how it works:
+
+## Overall Equation
+6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂
+
+## Two Main Stages
+
+### 1. Light-Dependent Reactions (The Photo Part)
+**Location:** Thylakoid membranes in chloroplasts
+
+- **Chlorophyll** absorbs light energy (primarily red and blue wavelengths)
+- Water molecules (H₂O) are split, releasing oxygen as a byproduct
+- Energy is captured and stored in molecules called **ATP** and **NADPH**
+- This stage literally converts light energy into chemical energy
+
+### 2. Light-Independent Reactions/Calvin Cycle (The Synthesis Part)
+**Location:** Stroma (fluid space) of chloroplasts
+
+- Uses the ATP and NADPH from stage 1
+- **Carbon dioxide** from the air is "fixed" into organic molecules
+- Through a series of enzyme-catalyzed reactions, CO₂ is converted into **glucose**
+- This stage builds the actual "food" (sugar) molecules
+
+## Key Components
+- **Chloroplasts:** The cellular factories where photosynthesis occurs
+- **Chlorophyll:** The green pigment that captures light energy
+- **Stomata:** Tiny pores in leaves that allow gas exchange (CO₂ in, O₂ out)
+
+## Significance
+Photosynthesis is crucial because it:
+- Produces oxygen for most life on Earth
+- Forms the base of virtually all food chains
+- Removes CO₂ from the atmosphere
+- Converts solar energy into a form other organisms can use
+
+This process essentially powers most life on Earth by converting sunlight into stored chemical energy!
