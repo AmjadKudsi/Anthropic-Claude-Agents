@@ -1,4 +1,4 @@
-// modify the user message to request two separate addition operations instead of just one. Try asking for something like calculating two different pairs of numbers in the same request
+// modify the user message to request both an addition operation and a multiplication operation
 
 import fs from 'fs';
 import Anthropic from "@anthropic-ai/sdk";
@@ -16,9 +16,10 @@ const systemPrompt =
 const schemasJson = fs.readFileSync('schemas.json', 'utf-8');
 const toolSchemas = JSON.parse(schemasJson);
 
-// TODO: Modify the user message to request two separate addition operations
+// TODO: Modify the user message to request both an addition and a multiplication operation
+// Create an array of messages to send to Claude
 const messages: Anthropic.MessageParam[] = [
-    { role: "user", content: "Please calculate 15 + 27 and 1115 + 2227" }
+    { role: "user", content: "Please calculate 15 + 27 and also calculate 555 * 227" }
 ];
 
 // Send the messages to Claude
