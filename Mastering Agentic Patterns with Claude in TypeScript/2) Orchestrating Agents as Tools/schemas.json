@@ -1,0 +1,106 @@
+[
+  {
+    "name": "sum_numbers",
+    "description": "Add two numbers together and return the result",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "description": "The first number to add"
+        },
+        "b": {
+          "type": "number",
+          "description": "The second number to add"
+        }
+      },
+      "required": ["a", "b"]
+    }
+  },
+  {
+    "name": "multiply_numbers",
+    "description": "Multiply two numbers together and return the result",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "description": "The first number to multiply"
+        },
+        "b": {
+          "type": "number",
+          "description": "The second number to multiply"
+        }
+      },
+      "required": ["a", "b"]
+    }
+  },
+  {
+    "name": "subtract_numbers",
+    "description": "Subtract the second number from the first number and return the result",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "description": "The first number (minuend)"
+        },
+        "b": {
+          "type": "number",
+          "description": "The second number (subtrahend)"
+        }
+      },
+      "required": ["a", "b"]
+    }
+  },
+  {
+    "name": "divide_numbers",
+    "description": "Divide the first number by the second number and return the result",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "a": {
+          "type": "number",
+          "description": "The dividend (number to be divided)"
+        },
+        "b": {
+          "type": "number",
+          "description": "The divisor (number to divide by)"
+        }
+      },
+      "required": ["a", "b"]
+    }
+  },
+  {
+    "name": "power",
+    "description": "Raise a base number to an exponent power",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "base": {
+          "type": "number",
+          "description": "The base number"
+        },
+        "exponent": {
+          "type": "number",
+          "description": "The exponent to raise the base to"
+        }
+      },
+      "required": ["base", "exponent"]
+    }
+  },
+  {
+    "name": "square_root",
+    "description": "Calculate the square root of a number",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "number",
+          "description": "The number to calculate the square root of"
+        }
+      },
+      "required": ["number"]
+    }
+  }
+]
