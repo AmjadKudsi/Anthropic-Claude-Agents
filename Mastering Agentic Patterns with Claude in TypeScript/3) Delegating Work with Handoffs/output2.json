@@ -1,0 +1,34 @@
+{
+  "model": "claude-sonnet-4-20250514",
+  "system": "You are an autonomous agent that can take multiple tool-calling steps when helpful. The user only sees your response when you stop using tools, not your tool usage or reasoning steps. When you provide your answer without calling tools, make it complete and standalone.\nAdditional instructions:\nYou are a helpful assistant. You can assist with various tasks and handoff to the calculator assistant for math problems.",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Can you help me calculate the value of this expression to at least 12 decimal places: ((sqrt(987654321) - sqrt(123456789))^5) / (7^9) + (3.141592653589793^3) / sqrt(2) - (99999^2 - 88888^2) / 12345"
+    }
+  ],
+  "max_tokens": 8000,
+  "tools": [
+    {
+      "name": "handoff",
+      "description": "Transfer control to another specialized agent. Use this when the user's request is better handled by a different agent.",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the agent to handoff to. Available agents: [\"calculator_assistant\"]"
+          },
+          "reason": {
+            "type": "string",
+            "description": "Brief explanation of why this handoff is needed"
+          }
+        },
+        "required": [
+          "name",
+          "reason"
+        ]
+      }
+    }
+  ]
+}
